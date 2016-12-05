@@ -5,3 +5,13 @@ Description: Bootstrap Blog template converted to WordPress as practice
 Version: 0.0.1
 Tags: bootstrap
 */
+
+.blog-nav li {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+}
+.blog-nav li a {
+  color: #fff;
+}
