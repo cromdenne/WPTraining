@@ -49,6 +49,15 @@ h6, .h6 {
   font-weight: 500;
   color: #cdddeb;
 }
+.blog-nav li {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+}
+.blog-nav li a {
+  color: #fff;
+}
 .blog-nav-item:hover,
 .blog-nav-item:focus {
   color: #fff;
