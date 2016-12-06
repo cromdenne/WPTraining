@@ -65,5 +65,8 @@
         register_setting( 'section', 'facebook' );
     }
     add_action( 'admin_init', 'custom_settings_page_setup' );
+
+    // Support featured images
+    add_theme_support( 'post-thumbnails' );
     
 ?>

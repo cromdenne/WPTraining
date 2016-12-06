@@ -7,5 +7,16 @@
         </a>
     </p>
         
-    <?php the_excerpt(); ?>
+    <?php if ( has_post_thumbnail() ) { ?>
+        <div class="row">
+            <div class="col-md-4">
+                <?php the_post_thumbnail( 'thumbnail' ); ?>
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-6">
+                <?php the_excerpt(); ?>
+            </div><!-- /.col-md-6 -->
+        </div><!-- /.row -->
+    <?php } else { ?>
+        <?php the_excerpt(); ?>
+    <?php } ?>
   </div><!-- /.blog-post -->
